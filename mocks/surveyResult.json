@@ -1,0 +1,67 @@
+{
+  "schoolChildSatisfactionData": [
+    {
+      "data": [10, 20, 20, 25, 25],
+      "colors": ["#94CEBD", "#F26B44", "#E34B99", "#EE4250", "#7B437D"],
+      "labels": [
+        "VERY DISSATISFIED",
+        "DISSATISFIED",
+        "OK",
+        "SATISFIED",
+        "VERY SATISFIED"
+      ],
+      "chartCenteredText": "CLASSROOM SPACE",
+      "sideNoteHeading": "Analysis",
+      "sideNoteDescription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+    },
+    {
+      "data": [10, 20, 20, 25, 25],
+      "colors": ["#94CEBD", "#F26B44", "#E34B99", "#EE4250", "#7B437D"],
+      "labels": [
+        "VERY DISSATISFIED",
+        "DISSATISFIED",
+        "OK",
+        "SATISFIED",
+        "VERY SATISFIED"
+      ],
+      "chartCenteredText": "TEACHER’S SKILL",
+      "sideNoteHeading": "Analysis",
+      "sideNoteDescription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+    },
+    {
+      "data": [10, 20, 20, 25, 25],
+      "colors": ["#94CEBD", "#F26B44", "#E34B99", "#EE4250", "#7B437D"],
+      "labels": [
+        "VERY DISSATISFIED",
+        "DISSATISFIED",
+        "OK",
+        "SATISFIED",
+        "VERY SATISFIED"
+      ],
+      "chartCenteredText": "SUPPORT",
+      "sideNoteHeading": "Analysis",
+      "sideNoteDescription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+    }
+  ],
+  "physicalHealthData": {
+    "barData": [
+      { "color": "green", "value": 20, "label": "Option 1" },
+      { "color": "pink", "value": 50, "label": "Option 2" },
+      {
+        "color": "orange",
+        "value": 30,
+        "label": "Option 3"
+      }
+    ],
+    "sideNoteHeading": "Analysis",
+    "sideNoteDescription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+  },
+  "mentalHealthData": {
+    "barData": [
+      { "color": "green", "value": 20, "label": "Option 1" },
+      { "color": "pink", "value": 80, "label": "Option 2" }
+    ],
+    "sideNoteHeading": "Analysis",
+    "sideNoteDescription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu."
+  }
+}

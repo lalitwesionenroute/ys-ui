@@ -1,0 +1,129 @@
+{
+  "lineChart": {
+    "data": [8, 9, 5, 7, 12, 19],
+    "dataPointsToShow": [7, 12]
+  },
+  "doughnutChart": {
+    "data": [25, 25, 50],
+    "colors": ["#EE4250", "#979797", "#7B437D"]
+  },
+  "gaugeChart": {
+    "data": [0, 100],
+    "dataPointsToShow": [70, 85]
+  },
+  "surveys": [
+    {
+      "surveyHeading": "EDUCATION ATTAINMENT: STUDENT SATISFACTION",
+      "question": "Q: Rate your satisfaction with the following aspects of…",
+      "questionOptions": ["CLASSROOM SPACE", "TEACHER SKILL", "SUPPORT"],
+      "barData": [
+        {
+          "color": "green",
+          "value": 6,
+          "label": "&#34;Rising Up&#34;"
+        },
+        {
+          "color": "pink",
+          "value": 12,
+          "label": "Latest HILDA result"
+        },
+        {
+          "color": "orange",
+          "value": 8,
+          "label": "Other programs across Australia*"
+        }
+      ],
+      "roundHelpText": "of clients satisfied",
+      "sideNoteHeading": "How this compares to other programs",
+      "sideNoteDescription": "Other programs doing better than &#34;Rising Up&#34; have told us they deliver their program face-to-face, offer intergrated services, are funded from the private sector, lorem ipsum,dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "sideNoteLinks": [
+        {
+          "label": "Read case studies of successful programs",
+          "href": "/"
+        },
+        {
+          "label": "Get advice from other organisations",
+          "href": "/"
+        }
+      ],
+      "links": {
+        "viewResponse": {
+          "label": "View Responses",
+          "href": "/"
+        }
+      }
+    },
+    {
+      "surveyHeading": "PHYSICAL HEALTH: PHYSICAL ACTIVITY OUTSIDE OF SCHOOL",
+      "question": "Q: Rate your satisfaction with the following aspects of…",
+      "questionOptions": ["CLASSROOM SPACE", "TEACHER SKILL", "SUPPORT"],
+      "barData": [
+        {
+          "color": "green",
+          "value": 21,
+          "label": "&#34;Rising Up&#34;"
+        },
+        {
+          "color": "pink",
+          "value": 17,
+          "label": "Latest HILDA result"
+        },
+        {
+          "color": "orange",
+          "value": 10,
+          "label": "Other programs across Australia*"
+        }
+      ],
+      "roundHelpText": "of clients do activity outside school",
+      "sideNoteHeading": "Great result!",
+      "sideNoteDescription": "&#34;Rising Up&#34; is exceeding your target and the sector average. Please tell us a bit more about how you've achieved this succes.",
+      "links": {
+        "viewResponse": {
+          "label": "View Responses",
+          "href": "/"
+        }
+      }
+    },
+    {
+      "surveyHeading": "PHYSICAL HEALTH: PHYSICAL ACTIVITY OUTSIDE OF SCHOOL",
+      "question": "Q: Rate your satisfaction with the following aspects of…",
+      "questionOptions": ["CLASSROOM SPACE", "TEACHER SKILL", "SUPPORT"],
+      "barData": [
+        {
+          "color": "green",
+          "value": 7,
+          "label": "&#34;Rising Up&#34;"
+        },
+        {
+          "color": "pink",
+          "value": 12,
+          "label": "Latest HILDA result"
+        },
+        {
+          "color": "orange",
+          "value": 14,
+          "label": "Other programs across Australia*"
+        }
+      ],
+      "roundHelpText": "of clients scored 25 or above",
+      "sideNoteHeading": "How this compares to other programs",
+      "sideNoteDescription": "Other programs doing better than &#34;Rising Up&#34; have told us they deliver their program face-to-face, offer intergrated services, are funded from the private sector, lorem ipsum,dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "sideNoteLinks": [
+        {
+          "label": "Read case studies of successful programs",
+          "href": "/"
+        },
+        {
+          "label": "Get advice from other organisations",
+          "href": "/"
+        }
+      ],
+      "links": {
+        "viewResponse": {
+          "label": "View Responses",
+          "href": "/"
+        }
+      }
+    }
+  ]
+}

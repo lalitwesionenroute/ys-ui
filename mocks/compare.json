@@ -1,0 +1,197 @@
+{
+  "surveys": [
+    {
+      "title": "EDUCATION ATTAINMENT: STUDENT SATISFACTION",
+      "question": "Q: Rate your satisfaction with the following aspects of…",
+      "questionOptions": ["CLASSROOM SPACE", "TEACHER SKILL", "SUPPORT"],
+      "sideTitle": "6% Satisfaction",
+      "sideDescription": "Other programs doing better than “Rising Up” have told us they deliver their program face-to-face, offer intergrated services, are funded from the private sector, lorem ipsum,dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "referenceLinks": [
+        {
+          "label": "Read case studides of successful programs",
+          "href": "/"
+        },
+        {
+          "label": "Get advice from other organisations",
+          "href": "/"
+        }
+      ],
+      "programs": [
+        {
+          "name": "PROGRAM 1",
+          "change": 50,
+          "total": 6
+        },
+        {
+          "name": "PROGRAM 2",
+          "change": 40,
+          "total": 12
+        },
+
+        {
+          "name": "PROGRAM 3",
+          "change": 20,
+          "total": 7
+        },
+        {
+          "name": "PROGRAM 4",
+          "change": -2,
+          "total": 6
+        },
+        {
+          "name": "PROGRAM 5",
+          "change": 1.24,
+          "total": 12
+        },
+        {
+          "name": "PROGRAM 6",
+          "change": 2.4,
+          "total": 8
+        },
+        {
+          "name": "PROGRAM 7",
+          "change": -1.92,
+          "total": 7.5
+        },
+        {
+          "name": "PROGRAM 8",
+          "change": 8,
+          "total": 12
+        },
+        {
+          "name": "PROGRAM 9",
+          "change": 3.7,
+          "total": 9
+        },
+        {
+          "name": "PROGRAM 10",
+          "change": 1.24,
+          "total": 8
+        },
+        {
+          "name": "PROGRAM 11",
+          "change": 1.24,
+          "total": 9
+        },
+        {
+          "name": "PROGRAM 12",
+          "change": 3.7,
+          "total": 5
+        },
+        {
+          "name": "PROGRAM 13",
+          "change": 1.24,
+          "total": 11
+        }
+      ]
+    },
+    {
+      "title": "HEALTH AND WELLBEING: MENTAL HEALTH",
+      "question": "Q: Rate your satisfaction with the following aspects of…",
+      "questionOptions": ["CLASSROOM SPACE", "TEACHER SKILL", "SUPPORT"],
+      "sideTitle": "12% Satisfaction",
+      "sideDescription": "Other programs doing better than “Rising Up” have told us they deliver their program face-to-face, offer intergrated services, are funded from the private sector, lorem ipsum,dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "referenceLinks": [
+        {
+          "label": "Read case studides of successful programs",
+          "href": "/"
+        },
+        {
+          "label": "Get advice from other organisations",
+          "href": "/"
+        }
+      ],
+      "programs": [
+        {
+          "name": "PROGRAM 21",
+          "change": 1.4,
+          "total": 6
+        },
+        {
+          "name": "PROGRAM 22",
+          "change": 2.4,
+          "total": 12
+        },
+
+        {
+          "name": "PROGRAM 23",
+          "change": 3.7,
+          "total": 7
+        },
+        {
+          "name": "PROGRAM 24",
+          "change": -2,
+          "total": 6
+        },
+        {
+          "name": "PROGRAM 25",
+          "change": 1.24,
+          "total": 12
+        },
+        {
+          "name": "PROGRAM 26",
+          "change": 2.4,
+          "total": 8
+        },
+        {
+          "name": "PROGRAM 27",
+          "change": -1.92,
+          "total": 7.5
+        },
+        {
+          "name": "PROGRAM 28",
+          "change": 1.24,
+          "total": 12
+        },
+        {
+          "name": "PROGRAM 29",
+          "change": 3.7,
+          "total": 9
+        }
+      ]
+    }
+  ],
+  "outcomesToCompare": [
+    {
+      "category": "Education",
+      "options": [
+        "Education Attainment",
+        "Learning Environment",
+        "Love of Learning",
+        "Student Performance",
+        "Workforce Readiness"
+      ]
+    },
+    {
+      "category": "Health & Wellbeing",
+      "options": [
+        "Access to Health Services",
+        "Child Health",
+        "Family Planning",
+        "Mental Health",
+        "Physical Health",
+        "Quality of Life"
+      ]
+    },
+    {
+      "category": "Housing & Homeless",
+      "options": [
+        "Access to Appropriate Housing",
+        "Housing Accessibility",
+        "Lorem Ipsum",
+        "Lorem Ipsum",
+        "Lorem Ipsum"
+      ]
+    },
+    {
+      "category": "Social Cohesion",
+      "options": [
+        "Cultural Diversity",
+        "Gender Equality",
+        "LGBTQ+ Rights",
+        "Lorem Ipsum",
+        "Lorem Ipsum"
+      ]
+    }
+  ]
+}
