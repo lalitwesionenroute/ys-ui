@@ -1,0 +1,735 @@
+[
+  {
+    "name": "summary",
+    "label": "Outcome Summary",
+    "type": "tab",
+    "description": "Compare your results to other programs.",
+    "tag": null,
+    "sections": [
+      {
+        "label": null,
+        "description": null,
+        "icon": null,
+        "tags": null,
+        "cards": [
+          {
+            "name": "linkToComparision",
+            "label": null,
+            "description": null,
+            "icon": null,
+            "component": "NavLink",
+            "tags": ["Link", "Comparision"],
+            "size": null,
+            "widget": [
+              {
+                "name": "linkComparision",
+                "tags": ["Link"],
+                "component": "LinkButton",
+                "label": "Compare Your result to Other Program",
+                "description": "See what impact other programs trying to achieve the same outcomes are having. Your are in control of what you share about your program.",
+                "status": null,
+                "size": null,
+                "options": {
+                  "label": "Learn More"
+                },
+                "mappings": {},
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Impact Over Time",
+        "description": null,
+        "icon": null,
+        "tags": null,
+        "filter": {
+          "label": null,
+          "description": null,
+          "items": [
+            {
+              "name": "compareFrom",
+              "label": "Compare",
+              "default": 0,
+              "component": "dropdown",
+              "api": {
+                "url": null,
+                "method": null,
+                "query": null,
+                "header": null
+              }
+            },
+            {
+              "name": "compareTo",
+              "label": "Compare",
+              "default": 0,
+              "component": "dropdown",
+              "api": {
+                "url": null,
+                "method": null,
+                "query": null,
+                "header": null
+              }
+            },
+            {
+              "name": "responseFrom",
+              "label": "Compare",
+              "component": "dropdown",
+              "default": 0,
+              "api": {
+                "url": null,
+                "method": null,
+                "query": null,
+                "header": null
+              }
+            }
+          ]
+        },
+        "cards": [
+          {
+            "name": "educationOverTime",
+            "label": null,
+            "description": null,
+            "icon": null,
+            "component": "WidgetsCard",
+            "tags": ["Line", "Education"],
+            "size": 6,
+            "widget": [
+              {
+                "name": "educationLine",
+                "tags": ["Line", "Education"],
+                "component": "LineChart",
+                "label": "Education Attainment",
+                "description": "",
+                "status": ["Satisfaction Descrease", "Satisfaction Increase"],
+                "size": null,
+                "options": {},
+                "mappings": {},
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "mentalHealthOverTime",
+            "label": null,
+            "description": null,
+            "icon": null,
+            "component": "WidgetsCard",
+            "tags": ["Pie", "Mental Health"],
+            "size": 6,
+            "widget": [
+              {
+                "name": "mentalHealthPie",
+                "tags": ["Pie", "Mental Health"],
+                "component": "PieChart",
+                "label": "Mental Health",
+                "status": ["Scored Under 25"],
+                "description": "Scored",
+                "size": null,
+                "options": {},
+                "mappings": {},
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "physicalHealthOverTime",
+            "label": null,
+            "description": null,
+            "icon": null,
+            "component": "WidgetsCard",
+            "tags": ["guage", "Physical Health"],
+            "size": 6,
+            "widget": [
+              {
+                "name": "physicalHealthPie",
+                "tags": ["Guage", "Physical Health"],
+                "component": "GuageChart",
+                "label": "Physical Health",
+                "description": null,
+                "status": [
+                  "Decrease in Improvement",
+                  "Increase in Improvement"
+                ],
+                "size": null,
+                "options": {},
+                "mappings": {},
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "More Recent Survey Results",
+        "description": null,
+        "icon": null,
+        "tags": null,
+        "filter": [
+          {
+            "name": "survey",
+            "label": "",
+            "default": 0,
+            "api": {
+              "url": null,
+              "method": null,
+              "query": null,
+              "header": null
+            }
+          }
+        ],
+        "cards": [
+          {
+            "name": "educationSummary",
+            "label": "EDUCATION ATTAINMENT:  Student Satisfaction",
+            "description": "Rate your satisfaction with the following aspects of",
+            "icon": null,
+            "component": null,
+            "tags": ["Summary", "Education"],
+            "size": null,
+            "widget": [
+              {
+                "name": "educationStatus",
+                "tags": ["Status", "Education"],
+                "component": "statusCircle",
+                "label": null,
+                "description": null,
+                "size": null,
+                "options": {
+                  "label": "of clients satisfied"
+                },
+                "mappings": null,
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              },
+              {
+                "name": "educationBar",
+                "tags": ["Bar", "Education", "Summary"],
+                "component": "BarChart",
+                "label": null,
+                "description": null,
+                "size": null,
+                "options": {},
+                "mappings": {},
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              },
+              {
+                "name": "educationInfo",
+                "tags": ["Info", "Education"],
+                "component": "Info",
+                "label": null,
+                "description": null,
+                "size": null,
+                "options": {},
+                "mappings": {},
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "physicalHealthSummary",
+            "label": "physical health: physical activity outside of school",
+            "description": "Rate your satisfaction with the following aspects of activities outside school",
+            "icon": null,
+            "component": null,
+            "tags": ["Summary", "Physical Health"],
+            "size": null,
+            "widget": [
+              {
+                "name": "physicalHealthStatus",
+                "tags": ["Status", "physical health"],
+                "component": "statusCircle",
+                "label": null,
+                "description": null,
+                "size": null,
+                "options": {
+                  "label": "of clients do activity outside school"
+                },
+                "mappings": null,
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              },
+              {
+                "name": "physicalHealthBar",
+                "tags": ["Bar", "physical health", "Summary"],
+                "component": "BarChart",
+                "label": null,
+                "description": null,
+                "size": null,
+                "options": {},
+                "mappings": {},
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              },
+              {
+                "name": "physicalHealthInfo",
+                "tags": ["Info", "physical health"],
+                "component": "Info",
+                "label": null,
+                "description": null,
+                "size": null,
+                "options": {},
+                "mappings": {},
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "mentalHealthSummary",
+            "label": "mental health: kessler 10 score",
+            "description": "Rate your satisfaction with the following aspects of kessler 10 score, scored above 25",
+            "icon": null,
+            "component": null,
+            "tags": ["Summary", "mental Health"],
+            "size": null,
+            "widget": [
+              {
+                "name": "mentalHealthStatus",
+                "tags": ["Status", "Mental Health"],
+                "component": "statusCircle",
+                "label": null,
+                "description": null,
+                "size": null,
+                "options": {
+                  "label": "of clients scored above 25"
+                },
+                "mappings": null,
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              },
+              {
+                "name": "mentalHealthBar",
+                "tags": ["Bar", "Mental Health", "Summary"],
+                "component": "BarChart",
+                "label": null,
+                "description": null,
+                "size": null,
+                "options": {},
+                "mappings": {},
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              },
+              {
+                "name": "mentalHealthInfo",
+                "tags": ["Info", "Mental Health"],
+                "component": "Info",
+                "label": null,
+                "description": null,
+                "size": null,
+                "options": {},
+                "mappings": {},
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "results",
+    "label": "Survey Results",
+    "type": "tab",
+    "description": "Compare your results to other programs.",
+    "tag": null,
+    "sections": [
+      {
+        "label": null,
+        "description": null,
+        "icon": null,
+        "tags": null,
+        "filter": [
+          {
+            "name": "survey",
+            "label": "Survey",
+            "default": 0,
+            "component": "dropdown",
+            "api": {
+              "url": null,
+              "method": null,
+              "query": null,
+              "header": null
+            }
+          },
+          {
+            "name": "gender",
+            "label": "Gender",
+            "default": null,
+            "component": "dropdown",
+            "api": {
+              "url": null,
+              "method": null,
+              "query": null,
+              "header": null
+            }
+          },
+          {
+            "name": "age",
+            "label": "Age",
+            "default": null,
+            "component": "dropdown",
+            "api": {
+              "url": null,
+              "method": null,
+              "query": null,
+              "header": null
+            }
+          }
+        ],
+        "cards": [
+          {
+            "name": "educationResults",
+            "label": "LEVEL OF SATISFACTION WITH THE SCHOOL CHILD IS CURRENTLY ATTENDING",
+            "description": "Q: Rate your satisfaction with the following aspects of your school",
+            "icon": null,
+            "component": null,
+            "tags": ["Result", "Education"],
+            "size": null,
+            "widget": [
+              {
+                "name": "educationResults",
+                "tags": ["Results", "Education"],
+                "component": "ResultAnalysis",
+                "label": null,
+                "description": null,
+                "size": null,
+                "options": {
+                  "chart": "PieChart"
+                },
+                "mappings": null,
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "physicalHealthResults",
+            "label": "physical health: physical activity outside of school",
+            "description": "Q: Rate your satisfaction with the following aspects of your school",
+            "icon": null,
+            "component": null,
+            "tags": ["Result", "Physical Health"],
+            "size": null,
+            "widget": [
+              {
+                "name": "educationResults",
+                "tags": ["Results", "Physical Health"],
+                "component": "ResultAnalysis",
+                "label": null,
+                "description": null,
+                "size": null,
+                "options": {
+                  "chart": "BarChart"
+                },
+                "mappings": null,
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "mentalHealthResults",
+            "label": "mental health: kessler 10 score",
+            "description": "Q: Rate your satisfaction with the following aspects of your school",
+            "icon": null,
+            "component": null,
+            "tags": ["Result", "Mental Health"],
+            "size": null,
+            "widget": [
+              {
+                "name": "mentalHealthResults",
+                "tags": ["Results", "Mental Health"],
+                "component": "ResultAnalysis",
+                "label": null,
+                "description": null,
+                "size": null,
+                "options": {
+                  "chart": "BarChart"
+                },
+                "mappings": null,
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "comparision",
+    "type": "link",
+    "label": "",
+    "description": "",
+    "tag": null,
+    "filter": {
+      "label": "Select outcomes to compare",
+      "description": "Amplify includes questions that measure 43 outcomes.",
+      "items": [
+        {
+          "name": "education",
+          "label": "Education",
+          "component": "checkbox",
+          "default": null,
+          "api": {
+            "url": null,
+            "method": null,
+            "query": null,
+            "header": null
+          }
+        },
+        {
+          "name": "health",
+          "label": "Health & Well being",
+          "component": "checkbox",
+          "default": null,
+          "api": {
+            "url": null,
+            "method": null,
+            "query": null,
+            "header": null
+          }
+        },
+        {
+          "name": "housing",
+          "label": "Housing and Homeless",
+          "component": "checkbox",
+          "default": null,
+          "api": {
+            "url": null,
+            "method": null,
+            "query": null,
+            "header": null
+          }
+        },
+        {
+          "name": "social",
+          "label": "Social Cohesion",
+          "component": "checkbox",
+          "default": null,
+          "api": {
+            "url": null,
+            "method": null,
+            "query": null,
+            "header": null
+          }
+        }
+      ]
+    },
+    "section": [
+      {
+        "label": "Sector Wide Intervention",
+        "description": "Here you can see the impact other programs that are using the same indicators are having, You can also compare it to the national average, as well as your program’s outcome.",
+        "icon": null,
+        "tags": null,
+        "filter": {
+          "label": null,
+          "description": null,
+          "items": [
+            {
+              "name": "compareFrom",
+              "label": "Compare my programs from",
+              "default": 0,
+              "component": "dropdown",
+              "api": {
+                "url": null,
+                "method": null,
+                "query": null,
+                "header": null
+              }
+            },
+            {
+              "name": "compareTo",
+              "label": "To other programs",
+              "default": 0,
+              "component": "dropdown",
+              "api": {
+                "url": null,
+                "method": null,
+                "query": null,
+                "header": null
+              }
+            },
+            {
+              "name": "responseFrom",
+              "label": "Including responses from",
+              "default": 0,
+              "component": "dropdown",
+              "api": {
+                "url": null,
+                "method": null,
+                "query": null,
+                "header": null
+              }
+            }
+          ]
+        },
+        "cards": [
+          {
+            "name": "educationComparision",
+            "label": "EDUCATION ATTAINMENT:  Student Satisfaction",
+            "description": "Rate your satisfaction with the following aspects of",
+            "icon": null,
+            "component": null,
+            "tags": ["Comparision", "Education"],
+            "size": null,
+            "widget": [
+              {
+                "name": "educationComparisionChart",
+                "tags": null,
+                "component": "BarChart",
+                "label": null,
+                "description": null,
+                "size": 6,
+                "options": {
+                  "layout": "horizontal"
+                },
+                "mappings": null,
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              },
+              {
+                "name": "educationComparisionInfo",
+                "tags": null,
+                "component": "Info",
+                "label": null,
+                "description": null,
+                "size": 6,
+                "options": {},
+                "mappings": null,
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "healthComparision",
+            "label": "Health and WellBeing:  Mental Health",
+            "description": "Rate your satisfaction with the following aspects of",
+            "icon": null,
+            "component": null,
+            "tags": ["Comparision", "Health"],
+            "size": null,
+            "widget": [
+              {
+                "name": "healthComparisionChart",
+                "tags": null,
+                "component": "BarChart",
+                "label": null,
+                "description": null,
+                "size": 6,
+                "options": {
+                  "layout": "horizontal"
+                },
+                "mappings": null,
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              },
+              {
+                "name": "healthComparisionInfo",
+                "tags": null,
+                "component": "Info",
+                "label": null,
+                "description": null,
+                "size": 6,
+                "options": {},
+                "mappings": null,
+                "api": {
+                  "url": null,
+                  "method": null,
+                  "query": null,
+                  "header": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
