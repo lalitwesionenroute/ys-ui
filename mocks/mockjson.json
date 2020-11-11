@@ -186,19 +186,21 @@
         "description": null,
         "icon": null,
         "tags": null,
-        "filter": [
-          {
-            "name": "survey",
-            "label": "",
-            "default": 0,
-            "api": {
-              "url": null,
-              "method": null,
-              "query": null,
-              "header": null
+        "filter": {
+          "items": [
+            {
+              "name": "survey",
+              "label": "",
+              "default": 0,
+              "api": {
+                "url": null,
+                "method": null,
+                "query": null,
+                "header": null
+              }
             }
-          }
-        ],
+          ]
+        },
         "cards": [
           {
             "name": "educationSummary",
@@ -399,44 +401,46 @@
         "description": null,
         "icon": null,
         "tags": null,
-        "filter": [
-          {
-            "name": "survey",
-            "label": "Survey",
-            "default": 0,
-            "component": "dropdown",
-            "api": {
-              "url": null,
-              "method": null,
-              "query": null,
-              "header": null
+        "filter": {
+          "items": [
+            {
+              "name": "survey",
+              "label": "Survey",
+              "default": 0,
+              "component": "dropdown",
+              "api": {
+                "url": null,
+                "method": null,
+                "query": null,
+                "header": null
+              }
+            },
+            {
+              "name": "gender",
+              "label": "Gender",
+              "default": null,
+              "component": "dropdown",
+              "api": {
+                "url": null,
+                "method": null,
+                "query": null,
+                "header": null
+              }
+            },
+            {
+              "name": "age",
+              "label": "Age",
+              "default": null,
+              "component": "dropdown",
+              "api": {
+                "url": null,
+                "method": null,
+                "query": null,
+                "header": null
+              }
             }
-          },
-          {
-            "name": "gender",
-            "label": "Gender",
-            "default": null,
-            "component": "dropdown",
-            "api": {
-              "url": null,
-              "method": null,
-              "query": null,
-              "header": null
-            }
-          },
-          {
-            "name": "age",
-            "label": "Age",
-            "default": null,
-            "component": "dropdown",
-            "api": {
-              "url": null,
-              "method": null,
-              "query": null,
-              "header": null
-            }
-          }
-        ],
+          ]
+        },
         "cards": [
           {
             "name": "educationResults",
